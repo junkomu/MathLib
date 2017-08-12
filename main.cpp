@@ -3,6 +3,7 @@
 
 void main()
 {
-	printf("Hello MathLib");
+	printf("Hello MathLib\n");
+	printf("test");
 	_getch();
 }
