@@ -7,8 +7,7 @@ cd /d %~dp0
 if exist deliverables rmdir /S /Q deliverables
 mkdir deliverables
 
-if "%CONFIG%"=="" set CONFIG=PreRelease
-echo %CONFIG%
+mklink /h deliverables\MathLib.exe x64\%CONFIG%\MathLib.exe
 
 del /Q matlib.*.zip
 
