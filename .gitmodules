@@ -1,3 +1,7 @@
 [submodule "sub"]
 	path = sub
 	url = https://github.com/junkomu/MathSub.git
+[submodule "suba"]
+	path = suba
+	url = https://github.com/junkomu/MathLib.git
+	branch = gh-pages
