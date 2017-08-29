@@ -4,6 +4,6 @@
 void main()
 {
 	printf("Hello MathLib\n");
-	printf("test");
+	printf("test2");
 	_getch();
 }
